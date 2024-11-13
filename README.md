@@ -10,8 +10,8 @@ STM32F070CBT6, 93C66WP
 | PA3  | CON2.2    | SW2                          | MILK_FOAM |           |
 | PA4  | CON2.1    | SW1                          | MILK_TEMP |           |
 | PA5  | PT3       | steam pressure sensor        |           |           |
-| PA6  | IC5       | TAB8                         |           |           |
-| PA7  | NTC1 1K   | coil NTC                     |           | R105      |
+| PA6  | TAB8      | EFAST                        |           |           |
+| PA7  | NTC1_D    | coil NTC                     |           | R105      |
 | PA8  | CON2.8    | OEN_B                        |           |           |
 | PA9  | T_CON.2   | USART1_TX                    |           |           |
 | PA10 | T_CON.3   | USART1_RX                    |           |           |
@@ -21,8 +21,8 @@ STM32F070CBT6, 93C66WP
 | PA14 | P_CON.4   | SWCLK                        |           |           |
 | PA15 | EEPROM.CS |                              |           |           |
 | PB0  | IC6       | zero-cross detector          |           |           |
-| PB1  | NTC2 1K   | pitcher NTC                  |           | R107      |
-| PB2  | NTC1 2.2K | coil NTC pullup              |           | R106      |
+| PB1  | NTC2_D    | pitcher NTC                  |           | R107      |
+| PB2  | NTC1_RES  | coil NTC pullup              |           | R106      |
 | PB3  | EEPROM.SK |                              |           |           |
 | PB4  | EEPROM.DO |                              |           |           |
 | PB5  | EEPROM.DI |                              |           |           |
@@ -30,7 +30,7 @@ STM32F070CBT6, 93C66WP
 | PB7  | ISO2      | z-c enable?                  |           | ISO2, Q18 |
 | PB8  | TAB4      | vibe pump                    |           | ISO3, Q13 |
 | PB9  | CON4      | air pump                     |           |           |
-| PB10 | NTC2 2.2K | pitcher NTC pullup           |           | R109      |
+| PB10 | NTC2_RES  | pitcher NTC pullup           |           | R109      |
 | PB11 | CON3      | flow meter                   |           | Q12       |
 | PB12 | CON2.7    | RST_B                        |           |           |
 | PB13 | CON2.10   | CLK                          |           |           |
